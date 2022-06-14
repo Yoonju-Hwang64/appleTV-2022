@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+header{
+    background-color: #000000;
+    height: 80px;
+    width: 100%;
+   
+}
+
+.menubar{
+    display: flex;
+    justify-content: center;   
+    padding-top: 28px;
+    gap: 500px
+}
+.menu_left{
+   display: flex;
+   gap: 45px;
+}
+
+.hero{
+    margin-top: 28px;
+    height: 944px;
+    background-image: url("images/hero_img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*slide*/
+#container{
+    position: relative; /* 컨테이너는 포지션 요소다*/
+    margin-top: 228px;
+}
+h1{
+    text-align: center;
+}
+.items{
+    height: 400px; display: flex;
+    justify-content: center; align-items: center;
+}
+.item{
+    height: 400px; display: flex;
+    justify-content: center; align-items: center;
+    display: none;
+}
+.active{
+    display: flex;
+    height: 800px; width: 100%; background-image: url("images/hero_img.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+button, button:active, button:focus{
+    position : absolute; /* 문서 흐름에서 제외되고, 상위 포지션 요소 기준으로 배치 */
+    top: 45%;
+    transform: translateY(-50%);
+    width: 40px; height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(232,232,232,0.0);
+}
+.next{
+    right: 0; /* next 버튼 오른쪽으로 */
+}
+.stepper{
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+}
+.step{
+    width: 12px; height: 12px;
+    border-radius: 50%;
+    background-color: rgba(232,232,232,0.4);
+    margin: 0 6px;
+}
+.active-step{
+    background-color: rgba(0,122,255,0.6);
+}
+
+main{
+    padding-top: 844px;
+}
+
+.content1, .content2, .content3, .content4, .content5{
+    margin-left: 80px;
+
+}
+.con_img{
+    display: flex;
+    white-space: nowrap;
+}
+.con_img1{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.card{
+    margin-right: 32px;
+    white-space: nowrap;
+}
+
+.box{
+    background-color: #007AFF;
+    position: absolute;
+    margin-top: 61px;
+    border-radius: 0px 4px 4px 0px;
+    width: 105px;
+    height: 27px;
+    display: block;
+    float: left;
+}
+.box1{
+    background-color: #007AFF;
+    position: absolute;
+    margin-top: 61px;
+    border-radius: 0px 4px 4px 0px;
+    width: 57px;
+    height: 27px;
+    display: block;
+    float: left;
+}
+.box p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.box1 p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.banner1{
+    background-image: url("images/banner1_img.png");
+    height: 516px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 80px;
+}
+.banner1_title{
+    margin-top: 64px;
+    margin-left: 845px;
+}
+.banner1 p{
+    display: flex;
+    position: absolute;
+    margin-left: 845px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    max-width: 510px;
+    line-height: 42px;
+}
+
+.banner1 a{
+    display: flex;
+    position: relative;
+    margin-top: 160px;
+    margin-left: 845px;
+
+    background-color: #007AFF;
+    width: 250px;
+    height: 52px;
+    border-radius: 8px;
+    
+}
+.banner1_button{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+.banner1_button_text{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    vertical-align: middle;
+    text-align: center;
+}
+
+h2{
+    margin-top: 80px;
+
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+}
+
+.banner2 h2{
+    color: #fff;
+}
+
+main img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+.content2 p{
+    margin-top: 20px;
+
+    font-size: 24px;
+    font-weight: 500;
+    color: #555;
+}
+
+.banner2{
+    background-color: #000;
+    display: flex;
+    width: 100%;
+    height: 769px;
+    margin-top: 80px;
+}
+.banner2_1{
+    margin-left: 80px;
+}
+.banner2_2{
+    display: block;
+    float: right;
+    margin-top: -410px;
+}
+
+.banner2_2 h2{
+    color: #fff;
+    display: flex;
+
+}
+.con_img img{
+    margin-right: 32px;
+}
+
+.con_img img:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }   
+    .con_img1 img:hover{
+        transform: translateY(-8px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }   
+
+
+footer{
+    margin-top: 80px;
+    width: 100%;
+    height: 120px;
+    background-color: #000000;
+}
+
+footer p1, p2{
+    color: #fff;
+    margin-left: 80px;
+
+    font-size: 12px;
+    font-weight: 400;
+}
+.foot_text{
+    padding-top: 36px;
+}
