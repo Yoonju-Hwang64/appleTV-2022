@@ -24,7 +24,7 @@ header{
 .hero{
     margin-top: 28px;
     height: 944px;
-    background-image: url("images/hero_img.png");
+    background-image: url("https://i.postimg.cc/qqB101nj/hero-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@ h1{
 }
 .active{
     display: flex;
-    height: 800px; width: 100%; background-image: url("images/hero_img.png"); 
+    height: 800px; width: 100%; background-image: url("https://i.postimg.cc/qqB101nj/hero-img.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -141,7 +141,7 @@ main{
 }
 
 .banner1{
-    background-image: url("images/banner1_img.png");
+    background-image: url("https://i.postimg.cc/vHbC74pQ/banner1-img.png");
     height: 516px;
     background-repeat: no-repeat;
     background-size: cover;
